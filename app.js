@@ -69,31 +69,6 @@ const promptUser = () => {
   ]);
 };
 
-const promptProject = portfolioData => {
-  console.log(`
-=================
-Add a New Project
-=================
-`);
-
-  // If there's no 'projects' array property, create one
-  if (!portfolioData.projects) {
-    portfolioData.projects = [];
-  }
-  return inquirer
-    .prompt([
-      
-    ])
-    .then(projectData => {
-      portfolioData.projects.push(projectData);
-      if (projectData.confirmAddProject) {
-        return promptProject(portfolioData);
-      } else {
-        return portfolioData;
-      }
-    });
-};
-
 promptUser()
   .then(portfolioData => {
     const pageHTML = generatePage(portfolioData);
