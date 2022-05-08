@@ -7,7 +7,7 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'name',
-      message: 'What is your name?',
+      message: 'What is your github username?',
     },
     {
       type: 'input',
@@ -46,7 +46,7 @@ const promptUser = () => {
       }
     },
     {
-      type: 'checkbox',
+      type: 'list',
       name: 'license',
       message: 'What license is your github project under?',
       choices: ['GPL', 'MIT', 'Apache', 'BSD']
@@ -70,14 +70,12 @@ const promptUser = () => {
 };
 
 promptUser()
-  .then(portfolioData => {
-    const pageHTML = generatePage(portfolioData);
+  .then(data => {
+    const pageHTML = generatePage(data);
 
-    fs.writeFile('./README.md', pageHTML, err => {
+    fs.writeFile('./readme/README.md', pageHTML, err => {
       if (err) throw new Error(err);
 
-      console.log('Page created! Check out index.html in this directory to see it!');
+      console.log('Your readme has been generated to the readme directory.');
     });
   });
-//   console.log(projectData);
-//   console.log(projectData.projects);

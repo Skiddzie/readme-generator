@@ -39,6 +39,10 @@ const generateLicense = license => {
   }
   // return `${license}[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
 }
+
+const generateGitLink = name => {
+  return `https://github.com/${name}`
+}
   module.exports = templateData => {
     
   
@@ -47,25 +51,28 @@ const generateLicense = license => {
 return `
 ${generateLicense(license)}
 
-#${title}
+# ${title}
 ${description}
 
-#Installation
+## Installation
 ${installation}
 
-#Usage
+## Usage
 ${usage}
 
-#Contributing
+## Contributing
 ${contributing}
     
-#Testing
+## Testing
 ${tests}
 
-License: ${license}
-#Contact info
-Name: ${name}
+## License
+This project is covered under the ${license} license
 
+## Questions
+If you have any questions you may contact me here
+
+Github: ${generateGitLink(name)}
 Email: ${email}
 `;
 };
