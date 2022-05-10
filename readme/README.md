@@ -1,26 +1,28 @@
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# asdf
-asdf
+# readme generator 
+it generates readmess
+
+[Usage](#usage)
 
 ## Installation
-dasf
+make sure you have node installed and then install inquierer
 
-## Usage
-adsf
+## <a name="usage"></a> Usage 
+use
 
 ## Contributing
-adsf
-    
+some details
+
 ## Testing
-dasf
+some tests
 
 ## License
-This project is covered under the Apache license
+This project is covered under the GPL license
 
 ## Questions
 If you have any questions you may contact me here
 
-Github: https://github.com/asdf
-Email: asdf
+Github: https://github.com/skiddzie
+Email: abmchendry@gmail.com
