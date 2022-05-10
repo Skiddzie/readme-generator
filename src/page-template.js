@@ -51,12 +51,13 @@ const generateGitLink = name => {
 return `
 ${generateLicense(license)}
 
-[Installation](#installation)
-[Usage](#usage)
-[Contributing](#contributing)
-[Tests](#tests)
-[License](#license)
-[Questions](#questions)
+### Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 # <a name="title"></a>${title}
 ${description}
