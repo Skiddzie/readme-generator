@@ -1,28 +1,33 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# readme generator 
-it generates readmess
-
+[Installation](#installation)
 [Usage](#usage)
+[Contributing](#contributing)
+[Tests](#tests)
+[License](#license)
+[Questions](#questions)
 
-## Installation
-make sure you have node installed and then install inquierer
+# <a name="title"></a>readme generator
+generates readmes
 
-## <a name="usage"></a> Usage 
-use
+## <a name="installation"></a>Installation
+get node
 
-## Contributing
-some details
+## <a name="usage"></a>Usage
+some info
 
-## Testing
-some tests
+## <a name="contributing"></a>Contributing
+some detaills
+    
+## <a name="testing"></a>Testing
+testing
 
-## License
+## <a name="license"></a>License
 This project is covered under the GPL license
 
-## Questions
+## <a name="questions"></a>Questions
 If you have any questions you may contact me here
 
 Github: https://github.com/skiddzie
-Email: abmchendry@gmail.com
+Email: email@email

@@ -51,25 +51,32 @@ const generateGitLink = name => {
 return `
 ${generateLicense(license)}
 
-# ${title}
+[Installation](#installation)
+[Usage](#usage)
+[Contributing](#contributing)
+[Tests](#tests)
+[License](#license)
+[Questions](#questions)
+
+# <a name="title"></a>${title}
 ${description}
 
-## Installation
+## <a name="installation"></a>Installation
 ${installation}
 
-## Usage
+## <a name="usage"></a>Usage
 ${usage}
 
-## Contributing
+## <a name="contributing"></a>Contributing
 ${contributing}
     
-## Testing
+## <a name="testing"></a>Testing
 ${tests}
 
-## License
+## <a name="license"></a>License
 This project is covered under the ${license} license
 
-## Questions
+## <a name="questions"></a>Questions
 If you have any questions you may contact me here
 
 Github: ${generateGitLink(name)}
